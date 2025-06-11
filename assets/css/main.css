@@ -1018,10 +1018,11 @@ p + p{
   color: rgb(238 238 240 / var(--tw-text-opacity));
 }
 
-.ic-navbar.sticky .btn-navbar{
+.ic-navbar.sticky .btn-navbar { 
   --tw-bg-opacity: 1;
-  background-color: rgb(61 99 221 / var(--tw-bg-opacity));
+  background-color: rgb(107 97 110 / var(--tw-bg-opacity)); /* #6B616E */
 }
+
 
 .ic-navbar.sticky .btn-navbar:hover{
   --tw-bg-opacity: 1;
@@ -1073,12 +1074,13 @@ p + p{
   background-color: #adc5f30f;
 }
 
-.tabs-nav .tabs-link.active{
+.tabs-nav .tabs-link.active {
   --tw-bg-opacity: 1;
-  background-color: rgb(61 99 221 / var(--tw-bg-opacity));
+  background-color: rgb(240 166 182 / var(--tw-bg-opacity)); /* #F0A6B6 */
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
 
 .tabs .tabs-content{
   display: block;
@@ -2259,10 +2261,11 @@ p + p{
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
-.focus\:bg-primary:focus{
+.focus\:bg-primary:focus { 
   --tw-bg-opacity: 1;
-  background-color: rgb(61 99 221 / var(--tw-bg-opacity));
+  background-color: rgb(107 97 110 / var(--tw-bg-opacity)); /* #6B616E */
 }
+
 
 .focus\:bg-primary-color:focus{
   --tw-bg-opacity: 1;
