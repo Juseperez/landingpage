@@ -1,12 +1,12 @@
-# Inazuma - Tailwind CSS Company Landing Page
+# Inazuma - Tailwind CSS
 
 ![Preview image](./assets/img/preview.png)
 
-This is a responsive landing page template for a company built with Tailwind CSS. It comes with a refreshing design, fully customizable and all essential elements that needed to launch a complete website. This project is created to practice and improve my Tailwind CSS skill.
 
-## Description
 
-Inazuma Tailwind CSS is an open-source and free Tailwind CSS template created by [Ranyeh](https://github.com/ranyeh24). Crafted for company website and can be used with almost all sort of web project. This template is Tailwind CSS version of [Inazuma](https://github.com/ranyeh24/inazuma) template with more refreshing design in it.
+## Descripción del problema
+
+La señora Lorena Pérez, es dueña de un spa donde ofrece tratamientos faciales y corporales para hombres y mujeres a partir de los 15 años. Aunque tiene presencia en redes sociales como Instagram, Facebook y Google, estas plataformas limitan la cantidad de información que puede compartir sobre los tratamientos y los productos que utiliza, los cuales suelen tener muchos ingredientes activos importantes de explicar. Además, el costo de hacer publicaciones pagadas dificulta aún más la difusión de sus servicios. Lorena no puede detallar su propuesta de valor, brindar información completa y establecer contacto directo con potenciales clientes porque los posts de las redes sociales no le permite escribir tanta información. Esto limita su capacidad de atraer nuevos pacientes que buscan un servicio profesional y confiable en el cuidado estético.
 
 ## Features
 
@@ -19,7 +19,7 @@ Inazuma Tailwind CSS is an open-source and free Tailwind CSS template created by
 * SEO-Friendly
 * Compatible to all browsers
 
-## Technologies Used
+## Tecnologías usadas
 
 * HTML
 * CSS
@@ -31,27 +31,6 @@ Inazuma Tailwind CSS is an open-source and free Tailwind CSS template created by
 * [ScrollReveal](https://scrollrevealjs.org/)
 * [GLightbox](https://biati-digital.github.io/glightbox/)
 * [Lineicons](https://lineicons.com/)
-
-## Live Demo
-
-You can see the live demo [here](https://ranyeh24.github.io/inazuma-tailwind).
-
-## Installation
-
-1. Clone the repository:
-```
-git clone https://github.com/yourusername/inazuma-tailwind.git
-```
-2. Or you can download and extract it to your project folder.
-3. Open `index.html` in your web browser.
-
-## Usage
-
-This project is a static website. You can use it as a template or reference for building similar landing pages or to practice your Tailwind CSS skill.
-
-## Customization
-
-If you're new to Tailwind CSS, you have to learn it before doing customization. You can learn it [here](https://tailwindcss.com/docs/installation).
 
 ### Change Colors
 
@@ -118,11 +97,11 @@ module.exports = {
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/ranyeh24/inazuma/issues) here on GitHub or email me at <real.ranyeh24@gmail.com>.
 
-## Credits
+## Creditos
 
 * Template design from [Play | Free Tailwind CSS Template for Startup and SaaS By TailGrids](https://play-tailwind.tailgrids.com/)
 * Images from [Unsplash](https://unsplash.com/)
 
-## License
+## Licencia
 
 Inazuma is open-source and available under the [MIT License](https://raw.githubusercontent.com/ranyeh24/inazuma/main/LICENSE). You can use it with your personal or commercial projects without any attribution or backlink.
