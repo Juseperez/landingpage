@@ -953,7 +953,7 @@ p + p{
 }
 
 .ic-navbar.sticky .ic-navbar-logo #NavbarBrandIcon{
-  fill: #3d63dd;
+  fill: #e1b1aa;
 }
 
 .ic-navbar.sticky .ic-navbar-toggler{
@@ -1758,15 +1758,17 @@ p + p{
   background-color: rgb(30 31 36 / 0.1);
 }
 
-.bg-green-400{
+.bg-green-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity)); /* Azul oscuro */
 }
 
-.bg-primary{
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(61 99 221 / var(--tw-bg-opacity));
+  background-color: rgba(240, 166, 182, var(--tw-bg-opacity));
 }
+
+
 
 .bg-primary-color{
   --tw-bg-opacity: 1;
@@ -1777,10 +1779,11 @@ p + p{
   background-color: rgb(255 255 255 / 0.15);
 }
 
-.bg-primary-dark-2{
+.bg-primary-dark-2 {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 37 52 / var(--tw-bg-opacity));
+  background-color: rgba(107, 97, 110, var(--tw-bg-opacity));
 }
+
 
 .bg-primary-light-1{
   --tw-bg-opacity: 1;
@@ -2050,9 +2053,9 @@ p + p{
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 
-.text-body-dark-11{
+.text-body-dark-11 {
   --tw-text-opacity: 1;
-  color: rgb(180 182 191 / var(--tw-text-opacity));
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 .text-body-light-10{
@@ -2074,10 +2077,11 @@ p + p{
   color: inherit;
 }
 
-.text-primary{
+.text-primary {
   --tw-text-opacity: 1;
-  color: rgb(61 99 221 / var(--tw-text-opacity));
+  color: rgba(107, 97, 110, var(--tw-text-opacity));
 }
+
 
 .text-primary-color{
   --tw-text-opacity: 1;
