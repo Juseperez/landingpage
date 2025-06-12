@@ -246,6 +246,4 @@ if (st) {
       behavior: "smooth",
     });
   });
-}
-
-
+};
