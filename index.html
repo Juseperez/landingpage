@@ -503,6 +503,36 @@ tratamientos adecuados.
         </div>
       </section>
 
+<section class="section-area flex flex-col items-center justify-center bg-white py-8">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+       <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Vota por tu servicio preferido</h2>
+
+       <div class="mb-6">
+       <form id="form_voting" class="relative flex items-center">
+          <select id="select_product"
+             class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+             <option value="" disabled selected>Seleccione un producto</option>
+             <option value="Limpieza">Limpieza facial profesional elite</option>
+             <option value="Microdermo">Microdermoabrasión</option>
+             <option value="MascFaciales">Mascarillas faciales</option>
+             <option value="Masajes">Masajes reductores</option>
+             <option value="Depilación">Depilación definitiva</option>
+             <option value="Asesorías">Asesorías personalizadas</option>
+          </select>
+          <button
+             class="ml-4 bg-primary text-primary-color font-bold py-2 px-6 rounded-lg hover:bg-primary-light-10 dark:hover:bg-primary-dark-10 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50">
+             VOTAR
+          </button>
+       </form>
+       </div>
+
+       <div id="results" class="border border-gray-300 rounded-lg h-52 w-full p-2 bg-gray-50">
+          <p class="text-gray-500 text-center mt-16">Resultado de la votación</p>
+       </div>
+    </div>
+</section>
+
+
       <!-- Pricing section -->
       <section id="pricing" class="section-area">
         <div class="container">
