@@ -2278,7 +2278,7 @@ p + p{
 .focus\:bg-primary-light-10:focus{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}/* boton de enviar formulario - 54 87 195
+}/* boton de enviar formulario - 54 87 195 */
 
 .focus\:text-primary:focus{
   --tw-text-opacity: 1;
@@ -2644,7 +2644,7 @@ p + p{
 
 .dark\:focus\:bg-primary-dark-10:focus:where([data-web-theme=dark], [data-web-theme=dark] *){
   --tw-bg-opacity: 1;
-  background-color: rgb(49 84 205 / var(--tw-bg-opacity));
+  background-color: rgb(240 166 182 / var(--tw-bg-opacity));
 }
 
 .dark\:focus\:text-primary-color:focus:where([data-web-theme=dark], [data-web-theme=dark] *){
