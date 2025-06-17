@@ -1090,13 +1090,13 @@ p + p{
 .tabs .tabs-content.hide{
   display: none;
 }
-/*
+
 .portfolio-menu button.active{
   --tw-bg-opacity: 1;
   background-color: rgb(61 99 221 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}*/
+}
 
 .portfolio.show{
   display: block;
@@ -1784,8 +1784,8 @@ p + p{
 
 .bg-primary-dark-2 {
   --tw-bg-opacity: 1;
-  background-color: rgba(107, 97, 110, var(--tw-bg-opacity));
-}
+  background-color: rgba(0 0 0 / var(--tw-bg-opacity));
+}/* color fondo footer*/
 
 
 .bg-primary-light-1{
@@ -2195,7 +2195,7 @@ p + p{
 .hover\:bg-primary-color:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
+}/**/
 
 .hover\:bg-primary-light-10:hover{
   --tw-bg-opacity: 1;

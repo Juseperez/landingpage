@@ -1045,13 +1045,17 @@ tratamientos adecuados.
                     </div>
 
                     <div class="col-12 md:col-6">
-                      <input
-                        type="text"
-                        name="subject"
+                      <select
+                        name="tipo_servicio"
                         class="block w-full px-5 py-3 rounded-md border border-solid border-alpha-light dark:border-alpha-dark text-inherit text-base focus:border-primary"
-                        placeholder="Tratamiento o servicio deseado"
                         required
-                      />
+                      >
+                        <option value="" disabled selected>Seleccione un tipo de servicio</option>
+                        <option value="estetica_facial">Estética facial</option>
+                        <option value="estetica_corporal">Estética corporal</option>
+                        <option value="masaje_relajante">Masaje relajante</option>
+                        <option value="consulta_general">Consulta general</option>
+                      </select>
                     </div>
 
                     <div class="col-12">
@@ -1074,8 +1078,10 @@ tratamientos adecuados.
                         </button>
                       </div>
                     </div>
+
                   </div>
                 </form>
+                
               </div>
             </div>
           </div>
@@ -1093,50 +1099,39 @@ tratamientos adecuados.
   ></iframe>
 </section>
 
-    <!-- Footer -->
-<footer class="bg-primary-dark-2 text-white text-sm">
-  <div class="container py-10 lg:py-14">
-    <div class="row">
-      <p class="mb-4 text-body-dark-11 max-w-xl">
-        Creamos experiencias de bienestar que renuevan cuerpo, mente y alma. Descubre el equilibrio perfecto en American Spa Lopeca.
-      </p>
-      <div class="-mx-2 flex items-center">
-        <a
-          href="javascript:void(0)"
-          class="px-2 text-body-dark-11 hover:text-primary text-[20px] leading-none"
-          id="whatsapp"
-        >
-          <i class="lni lni-whatsapp"></i>
-        </a>
-        <a
-          href="javascript:void(0)"
-          class="px-2 text-body-dark-11 hover:text-primary text-[20px] leading-none"
-          id="instagram"
-        >
-          <i class="lni lni-instagram-original"></i>
-        </a>
+<!-- footer section -->
+    <footer class="bg-gray-900 text-gray-300">
+      <!-- Sección redes sociales centrada -->
+      <div class="container mx-auto px-6 py-12 text-center">
+        <h3 class="text-[rgb(240,166,182)] text-xl font-semibold mb-6">Síguenos</h3>
+        <div class="flex justify-center space-x-16">
+          <a href="#" class="hover:text-[rgb(240,166,182)]">
+            <i class="lni lni-instagram-original text-3xl"></i>
+          </a>
+          <a href="#" class="hover:text-[rgb(240,166,182)]">
+            <i class="lni lni-whatsapp text-3xl"></i>
+          </a>
+          <a href="#" class="hover:text-[rgb(240,166,182)]">
+            <i class="lni lni-facebook text-3xl"></i>
+          </a>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div class="w-full border-t border-alpha-dark"></div>
-
-  <div class="container py-4">
-    <div class="flex flex-wrap justify-between items-center">
-      <div class="flex flex-wrap gap-x-4 justify-center md:justify-start w-full md:w-auto">
-        <a href="#" class="text-body-dark-11 hover:text-body-dark-12">Política de Privacidad</a>
-        <a href="#" class="text-body-dark-11 hover:text-body-dark-12">Aviso Legal</a>
-        <a href="#" class="text-body-dark-11 hover:text-body-dark-12">Términos de Servicio</a>
+      <!-- Sección enlaces legales -->
+      <div class="border-t border-gray-700">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center text-sm">
+          <div class="flex flex-wrap justify-center md:justify-start space-x-4 mb-2 md:mb-0">
+            <a href="#" class="hover:underline">Política de Privacidad</a>
+            <a href="#" class="hover:underline">Aviso Legal</a>
+            <a href="#" class="hover:underline">Términos de Servicio</a>
+          </div>
+          <p class="text-center md:text-right">
+            © 2024 American Spa Lopeca. Distribuido por 
+            <a href="https://themewagon.com" target="_blank" class="hover:underline">ThemeWagon</a>
+          </p>
+        </div>
       </div>
-      <div class="w-full mt-2 md:mt-0 md:w-auto text-center md:text-right">
-        <p class="text-body-dark-11">
-          &#169; 2024 American Spa Lopeca. Distribuido por <a href="https://themewagon.com" target="_blank" class="hover:underline">ThemeWagon</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
-
+    </footer>
 
     <button
       type="button"
